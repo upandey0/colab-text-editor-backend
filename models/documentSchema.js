@@ -6,6 +6,7 @@ const documentSchema = new mongoose.Schema({
     },
     owner: {
         type: mongoose.Schema.ObjectId,
+        required: true
     },
     collabs: [{
         type: mongoose.Schema.ObjectId,
